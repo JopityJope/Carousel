@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="slide slide--1 slide--active">
+        <img src="maria.jpg" alt="Maria de Almeida" />
+
+        <blockquote>
+          <p class="testemonial-text">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Perferendis, blanditiis maxime. Temporibus saepe quia provident
+            optio laboriosam, repudiandae dolor omnis ipsa!"
+          </p>
+          <p class="testemonial--author">Maria de Almeida</p>
+          <p class="testemonial--job">
+            Senior Product Menager at EDO Comercial
+          </p>
+        </blockquote>
+      </div>
+
+      <div class="slide slide--2">
+        <img src="emma.jpg" alt="Emma" />
+
+        <blockquote>
+          <p class="testemonial-text">
+            "Dolor sit, amet consectetur adipisicing elit. Delectus nobis
+            officia dolorum suscipit iusto quidem sed laborum nemo inventore,
+            necessitatibus laboriosam."
+          </p>
+          <p class="testemonial--author">Emma Smith</p>
+          <p class="testemonial--job">Architect and Urban Planner</p>
+        </blockquote>
+      </div>
+
+      <div class="slide slide--3">
+        <img src="anna.jpg" alt="Anna" />
+
+        <blockquote>
+          <p class="testemonial-text">
+            "Debitis quis ipsam nulla quo impedit obcaecati, maxime quasi!
+            Provident dolores fugit similique perspiciatis doloremque,
+            accusantium vel rerum consectetur!"
+          </p>
+          <p class="testemonial--author">Anna Haddow</p>
+          <p class="testemonial--job">Writer / Comedian</p>
+        </blockquote>
+      </div>
+
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn--icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn--icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <div class="dot dot--1 dot--active">&nbsp;</div>
+        <div class="dot dot--2">&nbsp;</div>
+        <div class="dot dot--3">&nbsp;</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
